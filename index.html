@@ -392,9 +392,11 @@
 </head>
 
 <body>
+<!--
     <img src="img/logo_liris.svg" class="logo-fixed-liris">
     <img src="img/Airbus_Logo_2017.svg" class="logo-fixed-airbus">
     <img src="img/logo-vectoriel-universite-claude-bernard-lyon-1-signature.jpg" class="logo-fixed-ubl">
+-->
     <div id="infoPanel" style="display: none;"></div>
     <div id="presentation-container">
 
@@ -421,7 +423,7 @@
                             <!-- Introduction -->
                             <section>
                                 <section>
-                                    <h1 style="font-size: 1.8em;text-transform: none;">Cours Ontologie</h1>
+                                    <h1 style="font-size: 1.8em;text-transform: none;">Support de Cours Ontologie</h1>
                                     <p style="text-align: left;">A l'issue de ce cours introduisant
                                         les ontologies, les participants sont censés pouvoir:</p>
                                     <ul>
@@ -441,14 +443,14 @@
                                     <p style="text-align: left;">Les ontologies concernent le partage de
                                         sens pour les
                                         systèmes de gestion de la connaissance et les systèmes d'information.
-                                        <br><br> Il faut donc introduire la notion de sens (A) et définir ce que sont
-                                        connaissance, information et données (B).
+                                        <br><br> Il faut donc introduire la notion de sens (1) et définir ce que sont
+                                        connaissance, information et données (2).
                                         <br><br>Tant que les langages naturels que les données posent des problèmes de
-                                        partage de sens (C), que visent à adresser les ontologies (D).
+                                        partage de sens (3), que visent à adresser les ontologies (4).
                                         <br><br>La modélisation sémantique s'appuyant sur un langage de modélisation
-                                        d'ontologie, OWL (Ontology Web Language), est ensuite étudiée (E).
-                                        <br><br> Nous sommes dès lors prêt à contruire des ontologies pour divers cas
-                                        d'usage(G).
+                                        d'ontologie, OWL (Ontology Web Language), est basé sur la logique descriptive et
+                                        la théorie des ensembles (5), qu'il faut en premier lieu comprendre.
+                                        <br><br> Nous sommes dès lors prêt à contruire des ontologies en OWL (6) pour divers cas d'applications (7).
                                     </p>
 
                                 </section>
@@ -458,7 +460,6 @@
                                     <h2 style="text-transform: none;">Plan du cours
                                     </h2>
                                     <ol style="list-style-type:none">
-                                        <li>Introduction générale sur les ontologies</li>
                                         <li>Introduction à la notion de sens</li>
                                         <li>Connaissance, information et données</li>
                                         <li>Problèmes de communication</li>
@@ -476,294 +477,6 @@
 
                                     <ol style="list-style-type:none; ">
                                         <li style="counter-reset: main 0;">Introduction à la notion de sens
-                                            <p>Pour comprendre l'interopérabilité sémantique, il faut définir le sens,
-                                                explorer les théories du sens et comprendre
-                                                l'importance du contexte pour l'interprétation des données V</p>
-                                            <ol>
-                                                <li>Le sens dans un contexte technologique</li>
-                                                <li>Sémiotique : L'étude des signes</li>
-                                                <li>La sémantique</li>
-                                                <li>La syntaxe</li>
-                                                <li>Sémantique et Pragmatique</li>
-                                                <li>Dénotation et Connotation</li>
-                                                <li>Rhétorique et Structuration du Sens</li>
-                                                <li>Du concept au graphe de concepts</li>
-                                                <li>Extension au monde informatique</li>
-                                                <li>Communautés, Domaines et Concepts Multiples</li>
-                                                <li>Application à l'Interopérabilité</li>
-
-                                            </ol>
-                                            <p>Il faut également comprendre ce que sont la connaissance, l'information
-                                                et les données ></p>
-                                    </ol>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;text-transform: none;">1.1 Le sens dans un contexte
-                                            technologique</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <ul>
-                                                <li>Dans l'interopérabilité, le sens des données doit être partagé entre
-                                                    les systèmes pour assurer leur échange efficace.</li>
-                                                <li>La sémantique est clé pour éviter les ambiguïtés dans
-                                                    l'interprétation des données échangées.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="image-zone">
-                                            <img src="./img/SemantiqueInformationConnaissance.png"
-                                                alt="SemantiqueInformationConnaissance"
-                                                style="max-width: 50%; height: auto;" />
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;text-transform: none;">1.2 Sémiotique : L'étude des
-                                            signes</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <p style="text-align: left;">La sémiotique est l'étude des signes et de leur
-                                                signification dans la communication.</p>
-                                            <ul>
-                                                <li><b>Signe :</b> Élément porteur de sens</li>
-                                                <li><b>Signifiant :</b> Forme du signe</li>
-                                                <li><b>Signifié :</b> Concept associé</li>
-                                            </ul>
-                                        </div>
-                                        <div class="image-zone">
-                                            <img src="./img/triangleSemantique.png" alt="Image locale"
-                                                style="max-width: 100%; height: auto;" />
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;text-transform: none;">1.3 La sémantique</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <p style="text-align: left;">La sémantique désigne l'étude du sens et de la
-                                                signification des mots,
-                                                des phrases, des symboles ou des signes dans un contexte donné.</p>
-                                            <ul>
-                                                <li>Elle traite des significations des mots, phrases et symboles.</li>
-                                                <li>Elle examine comment ces significations sont comprises par les
-                                                    utilisateurs dans différents contextes.</li>
-                                                <li>Elle se divise en plusieurs sous-domaines : sémantique linguistique,
-                                                    sémantique logique, etc.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="image-zone">
-
-                                            <img src="./img/TriangleSemantiqueSens.png"
-                                                alt="Triangle Sémiotique et sémantique"
-                                                style="max-width: 100%; height: auto;" />
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">1.4 La Syntaxe</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <p style="text-align: left;">La syntaxe est l'étude des règles de
-                                                construction des phrases et de
-                                                l'organisation des éléments linguistiques dans une structure cohérente.
-                                            </p>
-                                            <ul style="font-size: 0.5em;">
-                                                <li>Elle détermine comment les mots et les expressions peuvent être
-                                                    combinés pour former des énoncés corrects.</li>
-                                                <li>Elle ne se préoccupe pas de la signification des mots, mais de leur
-                                                    agencement grammatical.</li>
-                                                <li>En informatique, la syntaxe décrit la structure d'un langage de
-                                                    programmation ou d'un format de données (par exemple, JSON, XML).
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="image-zone">
-                                            <img src="./img/triangleSemantiqueSyntaxe.png"
-                                                alt="Triangle Sémiotique et syntaxe"
-                                                style="max-width: 100%; height: auto;" />
-                                        </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;transform: none;">1.5 Sémantique et Pragmatique</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <p style="font-size: 0.7em;text-align: left;">Définitions</p>
-                                            <ul>
-                                                <li><b>Sémantique:</b> étudie le sens littéral et abstrait des mots ou
-                                                    des phrases, indépendamment du contexte.</li>
-                                                <li><b>Pragmatique:</b> s'intéresse à l'usage du signe dans un contexte
-                                                    particulier, comme l’intention de communication.</li>
-                                            </ul>
-                                            <p style="text-align:left;">Exemple : Une même phrase peut avoir des sens
-                                                différents selon la
-                                                situation.</p>
-                                        </div>
-                                        <div class="image-zone">
-                                            <img src="./img/triangleSemantiquePragmatique.png"
-                                                alt="triangleSemantiquePragmatique"
-                                                style="max-width: 100%; height: auto;" />
-                                        </div>
-
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;transform: none;">1.6 Dénotation et connotation</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <p style="font-size: 0.7em;text-align: left;">Définitions:</p>
-                                            <ul>
-                                                <li>Dénotation : Sens primaire, explicite, objectif.</li>
-                                                <li>Connotation : Sens secondaire, subjectif, culturel.</li>
-                                            </ul>
-                                            <p style="text-align: left;">Illustration : Le mot "rose" peut désigner une
-                                                fleur (dénotation) ou
-                                                évoquer la
-                                                romance (connotation).</p>
-                                        </div>
-                                        <div class="image-zone">
-                                            <img src="./img/ConnotationDenotationSemiotique.png"
-                                                alt="ConnotationDenotationSemiotique"
-                                                style="max-width: 100%; height: auto;" />
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;;transform: none;">1.7 Rhétorique et Structuration
-                                            du Sens</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <p style="text-align: left;">Qu'est-ce que la rhétorique ?</p>
-                                            <p style="font-size: 0.5em;text-align: left;">La rhétorique est l'art de
-                                                structurer l'information pour influencer l'interprétation du signe.</p>
-                                            <p style="text-align: left;"">Les trois piliers de la persuasion</p>
-                                            <ul style=" font-size: 0.5em;">
-                                                <li><strong>Ethos :</strong> La crédibilité et l'autorité de
-                                                    l'orateur.</li>
-                                                <li><strong>Logos :</strong> La logique et la rationalité des
-                                                    arguments.</li>
-                                                <li><strong>Pathos :</strong> L'appel aux émotions du public.</li>
-                                                </ul>
-                                        </div>
-                                        <div class="image-zone">
-                                            <img src="./img/triangleSemantiqueRhetorique.png"
-                                                alt="Triangle Sémiotique et pragmatique"
-                                                style="max-width: 100%; height: auto;" />
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">1.8 Du concept au graphe de concepts</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <p style="font-size: 0.5em;text-align: left;">Dans les exemples classiques
-                                                du triangle sémantique, on parle souvent d'un concept et de son
-                                                référent. Cependant, il est fondamental de considérer l'ensemble des
-                                                relations dans un graphe conceptuel pour appréhender pleinement le sens.
-                                            </p>
-                                            <ul style="font-size: 0.5em;">
-                                                <li>Un concept pris isolément n'a que peu de valeur ; c'est son
-                                                    interconnexion avec d'autres concepts qui lui donne du sens.</li>
-                                                <li>Les graphes conceptuels offrent une modélisation essentielle du sens
-                                                    et de ses dépendances.</li>
-                                                <li>Cette approche garantit une compréhension partagée et réduit les
-                                                    risques d'ambiguïté.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="image-zone">
-                                            <img src="./img/grapheDeConcepts.png" alt="GrapheConcepts"
-                                                style="max-width: 100%; height: 300px;" />
-
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">1.9 Extension au Monde Informatique</h3>
-                                    </div>
-                                    <div class="content-zone">
-                                        <div class="text-zone">
-                                            <p style="font-size: 0.5em;text-align: left;">Lors du passage du monde de
-                                                l'information et des connaissances vers le monde des ordinateurs, il
-                                                faut considérer:</p>
-                                            <ol style="font-size: 0.45em;">
-                                                <li>Ressource Digitale <- Référent</li>
-                                                <li>Code ASCII <- de forme symbolique(terme)</li>
-                                                <li>Représentation formelle et digitale <- de graphe de concepts </li>
-                                            </ol>
-                                            <br>
-                                            <p style="font-size: 0.5em;text-align: left;">Pour la forme, on a des
-                                                représentations
-                                                duales
-                                            <ul style="font-size: 0.45em;">
-                                                <li>pour la communication des humains d’une part,</li>
-                                                <li>pour le traitement des machines d’autre part</li </ul>
-                                                </p>
-                                        </div>
-                                        <div class="image-zone">
-                                            <img src=" ./img/SemiotiqueEtendueData.png" alt="SemiotiqueEtendueData"
-                                                style="max-width: 100%; height: auto;" />
-                                            <br>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">1.10 Communautés, Domaines et concepts multiples
-                                        </h3>
-                                    </div>
-                                    <div class="image-zone">
-                                        <img src="./img/ContextesMultiples.png" alt="ContextesMultiples"
-                                            style="max-width: 50%; height: 300px;" />
-                                        <img src="./img/ClassificationsMultiples.png" alt="ClassificationsMultiples"
-                                            style="max-width: 50%; height: 300px;" />
-                                        <img src="./img/DomainesMultiple.png" alt="DomainesMultiple"
-                                            style="max-width: 50%; height: 300px;" />
-                                    </div>
-                                    <ul style="font-size: 0.5em;">
-                                        <li>De nombreux graphes sémantiques</li>
-                                        <li>Des domaines à interrelier pour communiquer et collaborer</li>
-                                    </ul>
-                                </section>
-
-                                <section>
-                                    <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">1.11 Application à l'Interopérabilité</h3>
-                                    </div>
-
-                                    <p style="font-size: 0.7em;text-align: left;">L'interopérabilité sémantique repose
-                                        sur une compréhension partagée du sens des données.</p>
-                                    <ul>
-                                        <li>Le sens est essentiel pour l'interprétation, la communication et le
-                                            développement de la connaissance, nécessaires à la collaboration.</li>
-                                        <li>Les données, l'information et la connaissance sont des éléments clés pour
-                                            structurer la compréhension.</li>
-                                        <li>L'tilisation des ontologies et des métadonnées pour formaliser le sens
-                                            garanti une interprétation cohérente et sans ambiguïté des données
-                                            échangées.</li>
-                                    </ul>
-                                </section>
-                            </section>
-                            <!-- Partie 2 : Introduction à la notion de sens -->
-                            <section>
-                                <section>
-
-                                    <ol style="list-style-type:none; ">
-                                        <li style="counter-reset: main 1;">Introduction à la notion de sens
                                             <p>Pour comprendre l'interopérabilité sémantique, il faut définir le sens,
                                                 explorer les théories du sens et comprendre
                                                 l'importance du contexte pour l'interprétation des données V</p>
@@ -1050,7 +763,7 @@
                             <section>
                                 <section>
                                     <ol style="list-style-type:none; ">
-                                        <li style="counter-reset: main 2;">Connaissance, information et
+                                        <li style="counter-reset: main 1;">Connaissance, information et
                                             données
                                             <p style="text-align: left;">L'interopérabilité sémantique concernant les
                                                 systèmes de gestion de connaissance et de gestion d'information, il faut
@@ -1072,7 +785,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.9em;">3.1 Qu'est ce que la connaissance</h3>
+                                        <h3 style="font-size: 0.9em;">2.1 Qu'est ce que la connaissance</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1101,7 +814,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.9em;">3.2 Qu'est ce que l'information</h3>
+                                        <h3 style="font-size: 0.9em;">2.2 Qu'est ce que l'information</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1130,7 +843,7 @@
                                         style="max-width: 100%; height: auto;" />
                                 </section>
                                 <section>
-                                    <h3 style="font-size: 1em;">3.3 Qu’est ce que la donnée?</h3>
+                                    <h3 style="font-size: 1em;">2.3 Qu’est ce que la donnée?</h3>
 
                                     <ul style="font-size: 0.5em;">
                                         <li><b>Dans la conception philosophique de la connaissance</b><br>les
@@ -1152,7 +865,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">3.4 La donnée dans la perspective des Systèmes
+                                        <h3 style="font-size: 0.8em;">2.4 La donnée dans la perspective des Systèmes
                                             d’Information
                                         </h3>
                                     </div>
@@ -1182,7 +895,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">3.5 La donnée dans le contexte de la connaissance
+                                        <h3 style="font-size: 0.8em;">2.5 La donnée dans le contexte de la connaissance
                                         </h3>
                                     </div>
                                     <div class="content-zone">
@@ -1222,7 +935,7 @@
                             <section>
                                 <section>
                                     <ol style="list-style-type:none; ">
-                                        <li style="counter-reset: main 3;">Problèmes de communication
+                                        <li style="counter-reset: main 2;">Problèmes de communication
                                             <p>Pour construire l'intéropérabilité sémantique des systèmes de gestions de
                                                 connaissances et d'information, de nombreux problèmes relatifs aux
                                                 langages naturels et aux données sont à résoudre V
@@ -1244,7 +957,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">4.1 Confusions liées au langage naturel
+                                        <h3 style="font-size: 0.8em;">3.1 Confusions liées au langage naturel
                                         </h3>
                                         <div>
                                             <div class="content-zone">
@@ -1288,7 +1001,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">4.2 Autres sources de confusion</h3>
+                                        <h3 style="font-size: 0.8em;">3.2 Autres sources de confusion</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1327,7 +1040,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">4.3 Le cas courant de l'homonymie</h3>
+                                        <h3 style="font-size: 0.8em;">3.3 Le cas courant de l'homonymie</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1352,7 +1065,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">4.4 Problèmes liés purement aux données</h3>
+                                        <h3 style="font-size: 0.8em;">3.4 Problèmes liés purement aux données</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1391,7 +1104,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">4.5 Problèmes liés aux informations</h3>
+                                        <h3 style="font-size: 0.8em;">3.5 Problèmes liés aux informations</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1433,7 +1146,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">4.6 Problèmes liés aux connaissances</h3>
+                                        <h3 style="font-size: 0.8em;">3.6 Problèmes liés aux connaissances</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1479,7 +1192,7 @@
                                 <section>
 
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">4.7 Conclusion </h3>
+                                        <h3 style="font-size: 0.8em;">3.7 Conclusion </h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1507,7 +1220,7 @@
                                 <section>
                                     <ol style="list-style-type:none; ">
 
-                                        <li style="counter-reset: main 4;">Les ontologies
+                                        <li style="counter-reset: main 3;">Les ontologies
                                             <p>Il faut comprendre ce Que sont les ontologies, ce qui les constituent et
                                                 à quoi elles servent V </p>
                                             <ol>
@@ -1526,7 +1239,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">5.1 Définition</h3>
+                                        <h3 style="font-size: 0.8em;">4.1 Définition</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -1545,7 +1258,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">5.2 Les ontologies</h3>
+                                        <h3 style="font-size: 0.8em;">4.2 Les ontologies</h3>
                                     </div>
 
                                     <div class="content-zone">
@@ -1622,7 +1335,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">5.3 Qu'est-ce qu'une bonne ontologie
+                                        <h3 style="font-size: 0.8em;">4.3 Qu'est-ce qu'une bonne ontologie
                                         </h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
@@ -1680,7 +1393,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">5.4 Les divers usages</h3>
+                                        <h3 style="font-size: 0.8em;">4.4 Les divers usages</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1700,7 +1413,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">5.5 Quelle logique?</h3>
+                                        <h3 style="font-size: 0.8em;">4.5 Quelle logique?</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1725,7 +1438,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">5.6 Quels langages?</h3>
+                                        <h3 style="font-size: 0.8em;">4.6 Quels langages?</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;text-align: left;">
                                         <div style="font-size: 0.8em;">
@@ -1757,7 +1470,7 @@
                             <section>
                                 <section>
                                     <ol style=" list-style-type:none; ">      
-                                        <li style=" counter-reset: main 5;">Logique et théorie des ensembles
+                                        <li style=" counter-reset: main 4;">Logique et théorie des ensembles
                                                     <p style="text-align: left;">Il faut donc connaitre les principes et
                                                         les concepts de base de la logique et de la théorie des
                                                         ensembles V </p>
@@ -1784,7 +1497,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.1 Logique et théorie des ensembles</h3>
+                                        <h3 style="font-size: 0.8em;">5.1 Logique et théorie des ensembles</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1804,7 +1517,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.2 Principes fondamentaux</h3>
+                                        <h3 style="font-size: 0.8em;">5.2 Principes fondamentaux</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1825,7 +1538,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.3 Quantificateurs</h3>
+                                        <h3 style="font-size: 0.8em;">5.3 Quantificateurs</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1849,7 +1562,7 @@
 
                                 <section>
                                     <div class=" title-zone">
-                                        <h3 style="font-size: 0.8em;">6.4 Concepts de base</h3>
+                                        <h3 style="font-size: 0.8em;">5.4 Concepts de base</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1903,7 +1616,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.5 Relations</h3>
+                                        <h3 style="font-size: 0.8em;">5.5 Relations</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1927,7 +1640,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.6 Caractéristiques des relations</h3>
+                                        <h3 style="font-size: 0.8em;">5.6 Caractéristiques des relations</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1953,7 +1666,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.7 Types de relations</h3>
+                                        <h3 style="font-size: 0.8em;">5.7 Types de relations</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -1977,7 +1690,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.8 Exemples pratiques</h3>
+                                        <h3 style="font-size: 0.8em;">5.8 Exemples pratiques</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;text-align:left">
@@ -2009,7 +1722,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.9 Définition Intensive des Ensembles</h3>
+                                        <h3 style="font-size: 0.8em;">5.9 Définition Intensive des Ensembles</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -2045,7 +1758,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">6.10 Monde Ouvert et Monde Fermé</h3>
+                                        <h3 style="font-size: 0.8em;">5.10 Monde Ouvert et Monde Fermé</h3>
                                     </div>
                                     <p style="font-size: 0.6em;text-align: left;">Les notions de monde ouvert et monde
                                         fermé sont des concepts fondamentaux dans la
@@ -2095,7 +1808,7 @@
                             <section>
                                 <section>
                                     <ol style=" list-style-type:none; ">
-                                        <li style=" counter-reset: main 6;">Modélisation sémantique avec OWL
+                                        <li style=" counter-reset: main 5;">Modélisation sémantique avec OWL
                                             <ol>
                                                 <li>Qu'est-ce que OWL?</li>
                                                 <li>Le logiciel Protégé</li>
@@ -2118,7 +1831,7 @@
                                 </section>
 
                                 <section>
-                                    <h3 style="font-size: 0.8em;">7.1 Qu’est-ce que OWL ?</h3>
+                                    <h3 style="font-size: 0.8em;">6.1 Qu’est-ce que OWL ?</h3>
                                     <p>Un langage de modélisation d'ontologie</p>
                                     <ul>
                                         <li>créé pour spécifier explicitement une conceptualisation</li>
@@ -2135,7 +1848,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">7.2 Le logiciel Protégé</h3>
+                                        <h3 style="font-size: 0.8em;">6.2 Le logiciel Protégé</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.8em;">
@@ -2191,7 +1904,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">7.3 Syntaxe Manchester</h3>
+                                        <h3 style="font-size: 0.8em;">6.3 Syntaxe Manchester</h3>
                                     </div>
                                     <div style="display: flex; gap: 20px;">
                                         <div style="font-size: 0.6em;">
@@ -2274,7 +1987,7 @@
                                     </aside>
                                 </section>
                                 <section data-graph="Graph_1">
-                                    <h3 style="font-size: 0.7em; text-transform: none;color: #3366cc;">7.4 Exploration visuelle d'une ontologie</h3>
+                                    <h3 style="font-size: 0.7em; text-transform: none;color: #3366cc;">6.4 Exploration visuelle d'une ontologie</h3>
                                     <div
                                         style="display: flex; justify-content: center; align-items: center; height: 100%; font-size: 15px;">
                                         <div style="display: flex; gap: 30px;">
@@ -2337,7 +2050,7 @@
                                 </section>
                                 <section>
                                     <div class=" title-zone" style="font-size: 1em;">
-                                        <h3 style="font-size: 0.8em;">7.5 Constructions du langage OWL</h3>
+                                        <h3 style="font-size: 0.8em;">6.5 Constructions du langage OWL</h3>
                                         <P style="font-size: 0.7em;">Tableau des construction du langage OWL
                                         </p>
                                         <div class="scrollable-table">
@@ -2435,7 +2148,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">7.6 Individus, Propriétés et Classes</h3>
+                                        <h3 style="font-size: 0.8em;">6.6 Individus, Propriétés et Classes</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone" style="font-size: 0.7em;">
@@ -2482,7 +2195,7 @@
                                         </div>
                                     </div>
                                     <aside class="notes">
-                                        <p style="font-size: 0.7em;text-align: left;">7.6 Les 3 concepts de bases en OWL
+                                        <p style="font-size: 0.7em;text-align: left;">6.6 Les 3 concepts de bases en OWL
                                             sont:</p>
                                         <ul style="font-size: 0.7em;">
                                             <li><b>Individus :</b> Représentent des instances concrètes ou
@@ -2513,7 +2226,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">7.7 Les Propriétés OWL</h3>
+                                        <h3 style="font-size: 0.8em;">6.7 Les Propriétés OWL</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone" style="font-size: 0.7em;">
@@ -2609,7 +2322,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">7.8 Équivalence et Subsomption avec OWL</h3>
+                                        <h3 style="font-size: 0.8em;">6.8 Équivalence et Subsomption avec OWL</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -2696,7 +2409,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">7.9 Principe des Contraintes Induites par des
+                                        <h3 style="font-size: 0.8em;">6.9 Principe des Contraintes Induites par des
                                             relations</h3>
                                     </div>
                                     <div class="content-zone">
@@ -2725,7 +2438,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">7.10 Individus : Typage, Identité et Propriétés
+                                        <h3 style="font-size: 0.8em;">6.10 Individus : Typage, Identité et Propriétés
                                         </h3>
                                     </div>
                                     <div class="content-zone">
@@ -2794,7 +2507,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">7.11 Usage des Quantificateurs</h3>
+                                        <h3 style="font-size: 0.8em;">6.11 Usage des Quantificateurs</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone" style="font-size: 0.7em;">
@@ -2873,7 +2586,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">7.12 Self, Value et Key</h3>
+                                        <h3 style="font-size: 0.8em;">6.12 Self, Value et Key</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -2920,7 +2633,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">7.13 Protégé: redondance de données et RDF
+                                        <h3 style="font-size: 0.8em;">6.13 Protégé: redondance de données et RDF
                                         </h3>
                                     </div>
                                     <div class="content-zone">
@@ -2995,7 +2708,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h4 style="font-size: 0.8em;">7.14 Validation: Cohérence et Utilité</h4>
+                                        <h4 style="font-size: 0.8em;">6.14 Validation: Cohérence et Utilité</h4>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -3077,7 +2790,7 @@
                                 <section>
                                     <ol style="list-style-type:none; ">
 
-                                        <li style="counter-reset: main 7;">Construire l'interopérabilité sémantique
+                                        <li style="counter-reset: main 6;">Construire l'interopérabilité sémantique
                                             <p style="text-align: left;">Comment construire l'interopérabilité
                                                 sémantique avec des ontologies en OWL V
                                             </p>
@@ -3101,7 +2814,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">8.1 L'interopérabilité sémantique</h3>
+                                        <h3 style="font-size: 0.8em;">7.1 L'interopérabilité sémantique</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -3151,7 +2864,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">8.2 Construire l'interopérabilité sémantique à
+                                        <h3 style="font-size: 0.8em;">7.2 Construire l'interopérabilité sémantique à
                                             l'aide des
                                             ontologies</h3>
                                     </div>
@@ -3205,7 +2918,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">8.3 Alignement lors de la conceptualisation</h3>
+                                        <h3 style="font-size: 0.8em;">7.3 Alignement lors de la conceptualisation</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -3241,7 +2954,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h4 style="font-size: 0.8em;">8.4 Intégration à posteriori</h4>
+                                        <h4 style="font-size: 0.8em;">7.4 Intégration à posteriori</h4>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -3278,7 +2991,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">8.5 Contribution à la Pyramide DIKW</h3>
+                                        <h3 style="font-size: 0.8em;">7.5 Contribution à la Pyramide DIKW</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone">
@@ -3325,7 +3038,7 @@
                                 <section>
                                     <div class="title-zone">
 
-                                        <h3 style="font-size: 0.8em;">8.6 Synonymie, Polysémie et Ambiguïté Syntaxique
+                                        <h3 style="font-size: 0.8em;">7.6 Synonymie, Polysémie et Ambiguïté Syntaxique
                                         </h3>
                                     </div>
                                     <div class="content-zone">
@@ -3377,7 +3090,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">8.7 Résolution des problèmes d'ambiguité et de
+                                        <h3 style="font-size: 0.8em;">7.7 Résolution des problèmes d'ambiguité et de
                                             données</h3>
                                     </div>
                                     <div class="content-zone">
@@ -3453,7 +3166,7 @@
 
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">8.8 Création de valeur pour les entreprises</h3>
+                                        <h3 style="font-size: 0.8em;">7.8 Création de valeur pour les entreprises</h3>
                                     </div>
                                     <div class="content-zone">
                                         <div class="text-zone" style="font-size: 0.8em;">
@@ -3584,7 +3297,7 @@
                                 </section>
                                 <section>
                                     <div class="title-zone">
-                                        <h3 style="font-size: 0.8em;">8.9 Défi de la communication entre acteurs</h3>
+                                        <h3 style="font-size: 0.8em;">7.9 Défi de la communication entre acteurs</h3>
                                     </div>
                                     <div class="content-zone" style="font-size: 0.8em;">
                                         <div class="text-zone">
@@ -3681,7 +3394,7 @@
                             <section>
                                 <section>
                                     <ol style="list-style-type:none;">
-                                        <li style="counter-reset: main 8;">Conclusion
+                                        <li style="counter-reset: main 7;">Conclusion
                                             <ol>
                                                 <li>Points clés</li>
                                                 <li>Perspectives</li>
@@ -3692,7 +3405,7 @@
                                     </ol>
                                 </section>
                                 <section>
-                                    <h1 style="font-size: 0.8em;">I.1 Résumé des points clés</h1>
+                                    <h1 style="font-size: 0.8em;">8.1 Résumé des points clés</h1>
 
                                     <p style="font-size: 0.5em;text-align: left;">Pour pouvoir construire
                                         l'interopérabilité sémantique, nous avons</p>
@@ -3707,7 +3420,7 @@
                                     </ul>
                                 </section>
                                 <section>
-                                    <h2 style="font-size: 0.8em;">I.2 Perspectives</h2>
+                                    <h2 style="font-size: 0.8em;">8.2 Perspectives</h2>
 
                                     <p style="font-size: 0.5em;text-align: left;">Nous nous sommes restreints aux
                                         aspects sémantiques sans détailler les aspects informatiques et la
